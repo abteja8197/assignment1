@@ -1,0 +1,51 @@
+.sidenav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  display: block;
+  overflow-y: scroll;
+}
+
+.sidenav__logosection {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.sidenav__logo {
+  max-height: 2.5rem;
+}
+
+.metismenu::after {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.metismenu {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: 250px;
+  background: #fff;
+}
+
+.metismenu-link {
+  padding-left: 10px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.metismenu-link:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.metismenu-link.active {
+  background: #fff;
+  color: black;
+  border-left: 2px solid #5e72e4;
+}
+
+.metismenu-container .metismenu-container {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 0;
+}
+/*# sourceMappingURL=SideNav.css.map */

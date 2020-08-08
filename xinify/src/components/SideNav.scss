@@ -1,0 +1,44 @@
+.sidenav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  display: block;
+  overflow-y: scroll;
+
+  &__logosection {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  &__logo {
+    max-height: 2.5rem;
+  }
+}
+
+.metismenu::after {
+  box-shadow: none;
+}
+
+.metismenu {
+  box-shadow: none;
+  width: 250px;
+  background: #fff;
+  &-link {
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  &-link:hover {
+    color: gray;
+    text-decoration: none;
+
+  }
+  &-link.active {
+    background: #fff;
+    color: black;
+    border-left: 2px solid #5e72e4;
+  }
+  &-container .metismenu-container {
+    box-shadow: none;
+    padding: 0;
+  }
+}
