@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACX,gBAAgB,EAAE,kBAAkB;CACrC;;AAED,AAAA,OAAO,CAAC;EACN,cAAc,EAAE,eAAe;CAChC;;AAED,AAAA,mBAAmB,CAAC;EAClB,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,MAAM;CAChB;;AAED,AAAA,aAAa,CAAC;EACZ,gBAAgB,EAAE,kBAAkB;CACrC",
+    "sources": [
+        "Assignments.scss"
+    ],
+    "names": [],
+    "file": "Assignments.css"
+}

@@ -7,6 +7,7 @@ import Home from '../screens/Home';
 import Registration from '../screens/Registration';
 import CourseApplications from '../screens/CourseApplications';
 import PaymentBatch from '../screens/PaymentBatch';
+import Assignments from '../screens/Assignments';
 
 
 const MainContent = () => {
@@ -23,6 +24,9 @@ const MainContent = () => {
       </Route>
       <Route path="/payment-batch">
         <PaymentBatch />
+      </Route>
+      <Route path="/assignments-data-entry">
+        <Assignments />
       </Route>
     </Switch>
   );

@@ -2,12 +2,14 @@
   position: fixed;
   top: 0;
   bottom: 0;
+  z-index: 1;
   display: block;
   overflow-y: scroll;
 
   &__logosection {
     text-align: center;
-    padding-bottom: 40px;
+    padding: 20px 0 40px 0;
+    background: #fff;
   }
 
   &__logo {
@@ -21,22 +23,30 @@
 
 .metismenu {
   box-shadow: none;
-  width: 250px;
+  width: 270px;
   background: #fff;
+
   &-link {
     padding-left: 10px;
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.4);
   }
+
   &-link:hover {
-    color: gray;
+    color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
 
   }
+
   &-link.active {
     background: #fff;
     color: black;
     border-left: 2px solid #5e72e4;
   }
+
+  &-link.has-active-child {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
   &-container .metismenu-container {
     box-shadow: none;
     padding: 0;

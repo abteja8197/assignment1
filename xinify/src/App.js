@@ -10,10 +10,10 @@ const App = () => {
     return (
         <Router>
             <div className="row no-gutters">
-                <div className="col-md-3">
+                <div className="col-md-2">
                     <SideNav />
                 </div>
-                <div className="col-md-8">
+                <div className="col-md-10 pl-5">
                     <MainContent />
                 </div>
             </div>

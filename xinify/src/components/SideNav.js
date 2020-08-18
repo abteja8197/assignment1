@@ -7,134 +7,134 @@ const SideNav = () => {
   const content = [
     {
       "id": 1,
-      "icon": "icon-class-name",
+      "icon": "home",
       "label": "Home",
       "to": "/Home"
     },
     {
       "id": 2,
       "parentId": 1,
-      "icon": "icon-class-name",
+      "icon": "home",
       "label": "Home 1",
       "to": "/home"
     },
     {
       "id": 3,
       "parentId": 1,
-      "icon": "icon-class-name",
+      "icon": "home",
       "label": "Home 2",
       "to": "/home2"
     },
     {
       "id": 4,
       "parentId": 1,
-      "icon": "icon-class-name",
+      "icon": "home",
       "label": "Home 3",
       "to": "/home3"
     },
     {
       "id": 5,
-      "icon": "icon-class-name",
+      "icon": "user",
       "label": "Student Registration"
     },
     {
       "id": 6,
       "parentId": 5,
-      "icon": "icon-class-name",
+      "icon": "user",
       "label": "Student Registration 1",
       "to": "/registration"
     },
     {
       "id": 7,
       "parentId": 5,
-      "icon": "icon-class-name",
+      "icon": "user",
       "label": "Student Registration 2",
       "to": "/registration2"
     },
     {
       "id": 8,
       "parentId": 5,
-      "icon": "icon-class-name",
+      "icon": "user",
       "label": "Student Registration 3",
       "to": "/registration3"
     },
     {
       "id": 9,
-      "icon": "icon-class-name",
+      "icon": "mobile-phone",
       "label": "Course Applications",
       "to": "/course-applications"
     },
     {
       "id": 10,
-      "icon": "icon-class-name",
+      "icon": "money",
       "label": "Payment Batch",
       "to": "/payment-batch"
     },
     {
       "id": 11,
-      "icon": "icon-class-name",
+      "icon": "lock",
       "label": "Student Accounts",
       "to": "/student-accounts"
     },
     {
       "id": 12,
-      "icon": "icon-class-name",
+      "icon": "book",
       "label": "Assignments Data Entry",
-      "to": "/"
+      "to": "/assignments-data-entry"
     },
     {
       "id": 13,
-      "icon": "icon-class-name",
+      "icon": "percent",
       "label": "Course Grades",
-      "to": "/"
+      "to": "/course-grades"
     },
     {
       "id": 14,
-      "icon": "icon-class-name",
+      "icon": "print",
       "label": "Printing of Transcripts",
-      "to": "/"
+      "to": "/printing-transcripts"
     },
     {
       "id": 15,
-      "icon": "icon-class-name",
+      "icon": "print",
       "label": "Printing of Certificates",
-      "to": "/"
+      "to": "/printing-certificates"
     },
     {
       "id": 16,
-      "icon": "icon-class-name",
+      "icon": "id-card",
       "label": "Student ID Cards",
-      "to": "/"
+      "to": "/student-id-cards"
     },
     {
       "id": 17,
-      "icon": "icon-class-name",
+      "icon": "pencil",
       "label": "Account General Entities",
-      "to": "/"
+      "to": "/account-general-entities"
     },
     {
       "id": 18,
-      "icon": "icon-class-name",
+      "icon": "wrench",
       "label": "User Maintanance",
-      "to": "/"
+      "to": "/user-maintenance"
     },
     {
       "id": 19,
-      "icon": "icon-class-name",
+      "icon": "thumbs-up",
       "label": "Setting Up of Course Detail",
-      "to": "/"
+      "to": "/setting-up-course-detail"
     },
     {
       "id": 20,
-      "icon": "icon-class-name",
+      "icon": "pencil",
       "label": "Setting up Grades",
-      "to": "/"
+      "to": "/setting-up-grades"
     },
   ]
   return (
     <div className="sidenav">
       <div className="sidenav__logosection">
-        <img src={Logo} className="sidenav__logo" />
+        <img src={Logo} alt="logo" className="sidenav__logo" />
       </div>
       <MetisMenu content={content} activeLinkFromLocation />
     </div>

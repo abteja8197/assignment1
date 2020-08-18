@@ -1,0 +1,93 @@
+.form-select,
+.form-multiselect {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  opacity: 1;
+  position: relative;
+
+  div {
+    white-space: nowrap;
+    border: none;
+    div:nth-child(1) {
+      overflow: hidden;
+    }
+  }
+
+  .searchBox {
+    display: inline;
+    text-align: left;
+    font-family: Helvetica;
+    font-weight: lighter;
+    letter-spacing: 0px;
+    color: #8699ad;
+    opacity: 1;
+    margin: 3px 0px;
+  }
+
+  .chip {
+    font-weight: lighter;
+    font-family: Helvetica;
+    font-size: 16px;
+    letter-spacing: 0px;
+    padding: 0px;
+    font-size: 16px;
+  }
+
+  ul.optionContainer {
+    max-height: 125px;
+    scrollbar-width: thin;
+
+    li {
+      padding: 0px 10px;
+
+      &:nth-child(1) {
+        color: #212529;
+        background: #fff;
+      }
+
+      &:hover {
+        background: #3a67db;
+        color: #fff;
+      }
+    }
+  }
+}
+.form-multiselect {
+  div {
+    white-space: nowrap;
+    border: none;
+    div:nth-child(1) {
+      overflow: auto;
+      scrollbar-width: thin;
+      z-index: 1;
+      // max-width: 510px;
+    }
+  }
+  .chip {
+    background: #3a67db 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    text-align: left;
+    font-family: Helvetica;
+    font-weight: lighter;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  &--icon {
+    width: 0;
+    height: 0;
+    border-radius: 3px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 11px;
+    z-index: 0;
+  }
+}

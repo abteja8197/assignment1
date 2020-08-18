@@ -1,0 +1,104 @@
+.form-select,
+.form-multiselect {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  opacity: 1;
+  position: relative;
+}
+
+.form-select div,
+.form-multiselect div {
+  white-space: nowrap;
+  border: none;
+}
+
+.form-select div div:nth-child(1),
+.form-multiselect div div:nth-child(1) {
+  overflow: hidden;
+}
+
+.form-select .searchBox,
+.form-multiselect .searchBox {
+  display: inline;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: lighter;
+  letter-spacing: 0px;
+  color: #8699ad;
+  opacity: 1;
+  margin: 3px 0px;
+}
+
+.form-select .chip,
+.form-multiselect .chip {
+  font-weight: lighter;
+  font-family: Helvetica;
+  font-size: 16px;
+  letter-spacing: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+
+.form-select ul.optionContainer,
+.form-multiselect ul.optionContainer {
+  max-height: 125px;
+  scrollbar-width: thin;
+}
+
+.form-select ul.optionContainer li,
+.form-multiselect ul.optionContainer li {
+  padding: 0px 10px;
+}
+
+.form-select ul.optionContainer li:nth-child(1),
+.form-multiselect ul.optionContainer li:nth-child(1) {
+  color: #212529;
+  background: #fff;
+}
+
+.form-select ul.optionContainer li:hover,
+.form-multiselect ul.optionContainer li:hover {
+  background: #3a67db;
+  color: #fff;
+}
+
+.form-multiselect div {
+  white-space: nowrap;
+  border: none;
+}
+
+.form-multiselect div div:nth-child(1) {
+  overflow: auto;
+  scrollbar-width: thin;
+  z-index: 1;
+}
+
+.form-multiselect .chip {
+  background: #3a67db 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  text-align: left;
+  font-family: Helvetica;
+  font-weight: lighter;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+.form-multiselect--icon {
+  width: 0;
+  height: 0;
+  border-radius: 3px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 11px;
+  z-index: 0;
+}
+/*# sourceMappingURL=Select.css.map */
